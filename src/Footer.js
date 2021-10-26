@@ -1,9 +1,7 @@
 import { Component } from 'react';
 
-class Footer extends Component
-{
-    render()
-    {
+class Footer extends Component {
+    render() {
         return (
             <p>K'Lan Stovall</p>
         )

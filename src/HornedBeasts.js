@@ -1,9 +1,7 @@
 import { Component } from 'react';
 
-class HornedBeasts extends Component
-{
-    render()
-    {
+class HornedBeasts extends Component {
+    render() {
         return (
             <>
                 <h2>{this.props.title}</h2>
