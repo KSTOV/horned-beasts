@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default class HornedBeasts extends Component {
 
