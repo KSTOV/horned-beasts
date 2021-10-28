@@ -1,6 +1,6 @@
 import { Component } from "react";
-import { Modal } from "react-bootstrap";
-import { Button } from 'react-bootstrap';
+import Modal from "react-bootstrap/Modal";
+import Button from 'react-bootstrap/Button';
 
 export default class SelectedBeast extends Component {
 
