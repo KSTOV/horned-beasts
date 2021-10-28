@@ -34,3 +34,13 @@ Finish time: 11:30pm
 
 Actual time needed to complete: 10 hours took a bunch of breaks
 ____________________________________________________________________________
+Number and name of feature: #4 Display a Modal
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5:00pm
+
+Finish time: 1:00am
+
+Actual time needed to complete: 8 hours
+____________________________________________________________________________
