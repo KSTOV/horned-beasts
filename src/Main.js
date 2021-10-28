@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import HornedBeasts from './HornedBeasts.js';
-import { Row } from 'react-bootstrap';
-import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 export default class Main extends Component {
 
