@@ -1,14 +1,17 @@
 import { Component } from 'react';
-import HornedBeasts from './HornedBeasts';
-import data from './data.json';
+import HornedBeasts from './HornedBeasts.js';
 import { Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
-class Main extends Component {
+export default class Main extends Component {
+
     render() {
         return (
-            <Row>{data.map(dataInfo => <HornedBeasts {...dataInfo}/>)}</Row>
+            <Container>
+                <Row xs={1} sm={2} md={3} lg={4}>
+                    {this.props.data.map(beast => <HornedBeasts beast={beast} showModal={this.props.showModal}/>)}
+                </Row>
+            </Container>
         )
     }
 }
-
-export default Main;
